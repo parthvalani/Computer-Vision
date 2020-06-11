@@ -26,7 +26,6 @@ def get_histogram(image, bins):
     # return our final result
     return histogram
 
-
 hist = get_histogram(flat, 256)
 
 plt.plot(hist)
